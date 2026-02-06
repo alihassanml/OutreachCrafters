@@ -1,0 +1,26 @@
+version: '3.9'
+
+services:
+  frontend:
+    build: .
+    container_name: OutreachCrafty
+    restart: always
+
+    labels:
+      - "traefik.enable=true"
+
+      # Domain Routing
+      - "traefik.http.routers.outreach.rule=Host(`outreachcrafters.com`) || Host(`www.outreachcrafters.com`)"
+      - "traefik.http.routers.outreach.entrypoints=websecure"
+      - "traefik.http.routers.outreach.tls=true"
+      - "traefik.http.routers.outreach.tls.certresolver=mytlschallenge"
+
+      # Container Port
+      - "traefik.http.services.outreach.loadbalancer.server.port=80"
+
+    networks:
+      - root_default
+
+networks:
+  root_default:
+    external: true
