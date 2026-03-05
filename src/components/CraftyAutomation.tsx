@@ -283,16 +283,14 @@ const OutreachCraftersWebsite = () => {
       accentColor: "#1769dc",
       rating: 5,
       text: "We'd been scaling steadily through referrals and inbound, but outbound was the missing piece until we met Noman and the OutreachCrafters team. They completely transformed how we connect with high-value clients. Within the first few weeks, we were booking 10–20 qualified calls per month with art buyers and retailers who perfectly matched our ICP. The conversion rate was remarkable nearly 33%, and we signed two large deals in sixty days, averaging $110K per client.",
-      highlight: "10–20 Qualified Calls/Month",
+      highlight: "8-10 Qualified Calls/Month",
       name: "Leon Oks",
       title: "Founder & CEO of iCanvas",
       avatarImg: "/LOGOS/icanvasCEO.svg",
       company: "iCanvas",
-      fullText: `"We'd been scaling steadily through referrals and inbound, but outbound was the missing piece until we met Noman and the OutreachCrafters team.
-They completely transformed how we connect with high-value clients. Within the first few weeks, we were booking 10–20 qualified calls per month with art buyers and retailers who perfectly matched our ICP. The conversion rate was remarkable nearly 33%, and we signed two large deals in sixty days, averaging $110K per client.
-The secret? Their approach didn't feel robotic. Every campaign was thoughtful, well-timed, and data-driven. OutreachCrafters tested multiple message styles, tracked response behavior, and found the perfect tone that resonated with our audience.
-I've worked with outreach specialists before, but none who took this much ownership of outcomes. Noman treated our campaigns as if they were his own, analyzing, iterating, and pushing for better results every single week.
-If you're looking for a partner who combines the science of outbound with genuine creative intelligence, look no further than OutreachCrafters."`
+      fullText: `"Before working with Noman and the OutreachCrafters team, we relied mainly on referrals and inbound. Within 90 days, we were consistently booking 8-10 additional qualified calls per month with art buyers and retailers that matched our ideal client profile.
+The quality of conversations stood out. The prospects already understood the value we offered, which led to five large deals sum of 110k$.
+Noman approached our growth like a true partner, focusing on the right opportunities rather than just volume. If you're looking for a team that prioritizes quality conversations that turn into real revenue, OutreachCrafters delivers."`
     },
     {
       id: 2,
@@ -304,27 +302,31 @@ If you're looking for a partner who combines the science of outbound with genuin
       title: "Founder & CEO of Amdel.ai",
       avatarImg: "/LOGOS/AmdelAiCEO.svg",
       company: "Amdel.ai",
-      fullText: `"Before working with Noman and the team at OutreachCrafters, we'd tried just about everything to get consistent outbound results — new domains, different tools, agencies that promised miracles. We could book a few meetings here and there, but it was never predictable or scalable.
-Within weeks of partnering with Noman, everything changed. He completely rebuilt our system from the ground up — refining our ICP, enriching our data, and creating outreach campaigns that actually felt human. We went from struggling to get replies to booking consistent, high-quality calls every week.
-In less than two months, we scaled to over 12,000 outbound emails a month, hitting 5%+ reply rates and tripling our conversion rate. Even better, we closed multiple enterprise clients — one deal alone covered our investment several times over.
-What really stood out was how hands-on Noman was throughout the process. He didn't just build a system; he acted like an extension of our team — reviewing copy, optimizing domain performance, and even suggesting creative testing angles.
-If you're serious about scaling outbound and want a partner who treats your success like his own, I'd recommend Noman and OutreachCrafters without hesitation."`
+      fullText: `"Before working with Noman and OutreachCrafters, our pipeline relied heavily on referrals and occasional outreach that rarely produced consistent results.
+
+What changed was the quality of conversations. Instead of chasing large volumes of prospects, we began speaking with companies that were already aligned with what we offer.
+
+That shift made a massive difference. We started having consistent high-quality calls every month, ultimately leading to multiple enterprise clients and a 3× increase in AI agent deployments.
+
+What stood out most was how closely Noman worked with our team. It never felt like an external vendor — more like a partner focused on helping us build a predictable growth channel.”"`
     },
     {
       id: 3,
       accentColor: "#1769dc",
       rating: 5,
       text: "Before connecting with Noman and OutreachCrafters, we'd tried a handful of outreach tools and even brought on a freelancer team to help us scale our outbound. But the results were scattered — open rates were inconsistent, and quality meetings were rare. Noman and his team approached things completely differently. They built a system that actually understood our industry. Every campaign was timed around real-world signals — funding rounds, hiring trends, and product launches.",
-      highlight: "8–10 Qualified Calls/Month",
+      highlight: "5–7 Qualified Calls/Month",
       name: "Richie Commins",
       title: "Founder & CEO of Flag",
       avatarImg: "/LOGOS/FlagCEO.svg",
       company: "Flag",
-      fullText: `"Before connecting with Noman and OutreachCrafters, we'd tried a handful of outreach tools and even brought on a freelancer team to help us scale our outbound. But the results were scattered — open rates were inconsistent, and quality meetings were rare.
-Noman and his team approached things completely differently. They built a system that actually understood our industry. Every campaign was timed around real-world signals — funding rounds, hiring trends, and product launches — which meant our emails landed when prospects were actively looking for solutions.
-In less than 10 weeks, we were booking 8–10 qualified calls per month, consistently hitting 33% conversion rates from those calls. The leads weren't random — they were high-intent prospects from the exact industries we serve, like airports, security, and infrastructure analytics.
-What impressed me most was Noman's responsiveness and adaptability. Anytime we needed to tweak messaging or adjust targeting, he was already one step ahead. He treated our campaigns like a living system — always testing, refining, and improving.
-I've worked with several outbound partners before, but OutreachCrafters has been by far the most strategic and transparent team we've collaborated with. They didn't just deliver meetings — they built a sustainable, predictable pipeline."`
+      fullText: `"Before OutreachCrafters, we had tried several outreach tools and even worked with freelance teams, but the results were inconsistent and the meetings rarely turned into real opportunities.
+
+Working with Noman was different. Instead of filling the calendar with random prospects, we began speaking with companies that were actually relevant to our industry.
+
+Within a couple of months we were consistently having 5–7 qualified conversations each month, many of them with organizations in sectors like airports, security, and infrastructure analytics — exactly where our solution fits.
+
+The difference was clear: fewer conversations, but significantly higher intent and stronger conversion rates."`
     },
   ];
 
@@ -397,39 +399,7 @@ I've worked with several outbound partners before, but OutreachCrafters has been
   ];
 
   // Process data
-  const process = [
-    {
-      title: "ICP & Signal Analysis",
-      description: "We identify your Ideal Customer Profiles using verified leads from private data sources, enriched with funding stage, industry, and hiring signals.",
-      icon: Target,
-      color: "from-[#c42dd7] to-[#1769dc]"
-    },
-    {
-      title: "Infrastructure Setup",
-      description: "We deploy a multi-domain sending architecture, warming domains for 14–21 days to ensure top-tier deliverability.",
-      icon: Zap,
-      color: "from-[#1769dc] to-[#c42dd7]"
-    },
-    {
-      title: "Campaign Development",
-      description: "Our team creates multiple campaign variations to find the message that resonates best with your audience.",
-      icon: MessageSquare,
-      color: "from-[#c42dd7] to-[#1769dc]"
-    },
-    {
-      title: "Performance Optimization",
-      description: "We continuously test subject lines, copy angles, and targeting signals to refine engagement and improve conversion rates.",
-      icon: TrendingUp,
-      color: "from-[#1769dc] to-[#c42dd7]"
-    },
-    {
-      title: "Scaled ICP Outreach",
-      description: "When the winning message-market fit is achieved, we roll it out to similar verified profiles at scale.",
-      icon: Rocket,
-      color: "from-[#c42dd7] to-[#1769dc]"
-    }
-  ];
-
+  
   // New Sections Content
   const sections = [
     {
@@ -447,7 +417,7 @@ Here's what usually happens:
 The result?
 Your prospects receive generic messages at the wrong time, from agencies that don't understand your market, and your brand pays the price.
 
-Cold email isn't broken.
+Outreach isn't broken.
 Bad strategy is.`
     },
     {
@@ -475,9 +445,9 @@ This approach creates inbox noise, not pipeline.`
       id: "section3",
       title: "The Outreach Crafters Way",
       subtitle: "The Outreach Crafters way: signal-first, human-led outreach",
-      content: `We don't send more emails.
-We send better-timed emails to the right people for the right reason.
-Here's how we do it differently 👇
+      content: `We don't send more messages.
+We start better-timed conversations with the right companies for the right reason.
+
 
 Pain-based, signal-driven campaigns
 We actively look for real-world buying signals, such as:
@@ -504,7 +474,7 @@ Humans handle:
 Every campaign is overseen by a real strategist, not pushed live blindly.
 
 Performance-aligned guarantees
-We don't believe in getting paid just for "sending emails."
+We don't believe in getting paid just for "sending messages."
 That's why our model includes:
 • Performance-based incentives
 • Clear benchmarks
@@ -644,7 +614,7 @@ If meetings don't happen, we don't hide behind reports — we fix the system.`
 
               <div className="hidden md:flex space-x-6 items-center">
                 <a href="#section3" className="text-gray-300 hover:text-[#c42dd7] transition-colors duration-300 font-medium text-sm">Outreach Crafters Way</a>
-                <a href="#process" className="text-gray-300 hover:text-[#c42dd7] transition-colors duration-300 font-medium text-sm">Process</a>
+                <a href="#comparison" className="text-gray-300 hover:text-[#c42dd7] transition-colors duration-300 font-medium text-sm">Why Us?</a>
                 <a href="#testimonials" className="text-gray-300 hover:text-[#1769dc] transition-colors duration-300 font-medium text-sm">Testimonials</a>
                 <a href="#contact" className="text-gray-300 hover:text-[#c42dd7] transition-colors duration-300 font-medium text-sm">Contact</a>
 
@@ -698,43 +668,42 @@ If meetings don't happen, we don't hide behind reports — we fix the system.`
         </nav>
 
         {/* Hero Section */}
-        <section className={`pt-20 md:pt-32 pb-12 md:pb-16 ${getSectionPadding()}`}>
+        <section className={`pt-32 md:pt-54 pb-12 md:pb-16 ${getSectionPadding()}`}>
           <div className="max-w-[1400px] mx-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-              <div className="text-center lg:text-left">
-                <div className="inline-block mb-4 md:mb-6">
-                  <span className="px-4 py-1.5 md:px-5 md:py-2 bg-gradient-to-r from-[#c42dd7]/20 to-[#1769dc]/20 border border-[#c42dd7]/30 rounded-full text-purple-300 font-semibold text-sm md:text-base backdrop-blur-sm">
-                    🚀 Performance-Based Results
-                  </span>
-                </div>
+            <div className="flex justify-center">
+             <div className="text-center max-w-3xl mx-auto">
+  <div className="inline-block mb-6 md:mb-8">
+    <span className="px-5 py-2 md:px-6 md:py-2.5 bg-gradient-to-r from-[#c42dd7]/20 to-[#1769dc]/20 border border-[#c42dd7]/30 rounded-full text-purple-300 font-semibold text-base md:text-lg backdrop-blur-sm">
+      🚀 Performance-Based Results
+    </span>
+  </div>
 
-                <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 md:mb-6 leading-tight">
-                  We help{' '}
-                  <span className="font-black bg-gradient-to-r from-[#c42dd7] via-purple-400 to-[#1769dc] bg-clip-text text-transparent">
-                    B2B AI SAAS, Staffing and Wealth Management Firms
-                  </span>
-                  {' '}in unlocking
-                  <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#1769dc] to-[#c42dd7] font-black mt-2 md:mt-3">
-                    3x revenue growth
-                  </span>
-                </h1>
+  <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-white mb-6 md:mb-8 leading-tight">
+    We help{' '}
+    <span className="font-black bg-gradient-to-r from-[#c42dd7] via-purple-400 to-[#1769dc] bg-clip-text text-transparent">
+      B2B SAAS & AI Companies
+    </span>
+    {' '}in unlocking
+    <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#1769dc] to-[#c42dd7] font-black mt-3 md:mt-4">
+      3x revenue growth
+    </span>
+  </h1>
 
-                <p className="text-sm md:text-base text-gray-300 mb-6 md:mb-8 font-normal max-w-xl lg:max-w-none mx-auto lg:mx-0">
-                  with <span className="text-[#c42dd7] font-semibold">Hands off Growth Systems</span>
-                </p>
+  <p className="text-xl md:text-2xl text-gray-300 mb-10 md:mb-12 font-normal max-w-xl mx-auto">
+    with <span className="text-[#c42dd7] font-semibold">Hands off Growth Systems</span>
+  </p>
 
-                <div className="flex flex-col sm:flex-row gap-3 md:gap-4 mb-8 md:mb-12 justify-center lg:justify-start">
-                  <a href="#contact" className="w-full sm:w-auto">
-                    <button className="group relative w-full bg-gradient-to-r from-[#c42dd7] via-purple-600 to-[#1769dc] text-white px-6 py-3 md:px-7 md:py-4 rounded-xl font-semibold text-sm md:text-base hover:shadow-lg transition-transform duration-200 active:scale-95">
-                      <span className="relative z-10 flex items-center justify-center gap-2">
-                        Get Started Now <ArrowRight className="w-4 h-4 md:w-5 md:h-5" />
-                      </span>
-                    </button>
-                  </a>
-                </div>
-              </div>
-
-              {/* YouTube Video Section */}
+  <div className="flex flex-col sm:flex-row gap-4 mb-12 md:mb-16 justify-center">
+    <a href="#contact" className="w-full sm:w-auto">
+      <button className="group relative w-full bg-gradient-to-r from-[#c42dd7] via-purple-600 to-[#1769dc] text-white px-10 py-4 md:px-12 md:py-5 rounded-xl font-semibold text-lg md:text-xl hover:shadow-lg transition-transform duration-200 active:scale-95">
+        <span className="relative z-10 flex items-center justify-center gap-2">
+          Get Started Now <ArrowRight className="w-5 h-5 md:w-6 md:h-6" />
+        </span>
+      </button>
+    </a>
+  </div>
+</div>
+              {/* YouTube Video Section
               <div className="relative mt-6 md:mt-0">
                 <div className="relative bg-[#0c102d]/80 backdrop-blur-sm rounded-xl md:rounded-2xl p-4 border border-[#c42dd7]/30 h-[220px] sm:h-[280px] md:h-[400px] overflow-hidden">
                   <div className="w-full h-full flex flex-col items-center justify-center">
@@ -751,7 +720,7 @@ If meetings don't happen, we don't hide behind reports — we fix the system.`
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* Features Section */}
@@ -902,7 +871,7 @@ If meetings don't happen, we don't hide behind reports — we fix the system.`
                 <div className="mt-8 md:mt-12 pt-8 md:pt-12 border-t border-[#c42dd7]/30">
                   <div className="text-center">
                     <p className="text-base md:text-xl text-gray-300 mb-4 md:mb-6">
-                      <span className="font-bold">Cold email isn't broken.</span>
+                      <span className="font-bold">Outreach isn't broken.</span>
                     </p>
                     <p className="text-2xl md:text-3xl font-black bg-gradient-to-r from-[#c42dd7] via-purple-400 to-[#1769dc] bg-clip-text text-transparent mb-4 md:mb-6">
                       Bad strategy is.
@@ -1013,8 +982,8 @@ If meetings don't happen, we don't hide behind reports — we fix the system.`
                 {sections[2].subtitle}
               </p>
               <div className="text-xl md:text-2xl font-bold bg-gradient-to-r from-[#c42dd7] to-[#1769dc] bg-clip-text text-transparent">
-                We don't send more emails.<br />
-                We send better-timed emails to the right people for the right reason.
+                We don't send more messages.<br />
+                We send better-timed messages to the right people for the right reason.
               </div>
             </div>
 
@@ -1099,7 +1068,7 @@ If meetings don't happen, we don't hide behind reports — we fix the system.`
                       </div>
                       <h3 className="text-lg md:text-xl font-bold text-white mb-4 text-center">Performance-aligned guarantees</h3>
                       <p className="text-gray-400 mb-4 text-center">
-                        We don't believe in getting paid just for "sending emails."
+                        We don't believe in getting paid just for "sending messages."
                       </p>
 
                       <div className="space-y-3">
@@ -1145,7 +1114,7 @@ If meetings don't happen, we don't hide behind reports — we fix the system.`
         </section>
 
         {/* Process Section */}
-        <section id="process" className={`py-12 md:py-16 ${getSectionPadding()}`}>
+        {/* <section id="process" className={`py-12 md:py-16 ${getSectionPadding()}`}>
           <div className="max-w-[1400px] mx-auto">
             <div className="text-center mb-8 md:mb-12">
               <h2 className="text-2xl md:text-3xl font-black text-white mb-3 md:mb-4">
@@ -1185,7 +1154,7 @@ If meetings don't happen, we don't hide behind reports — we fix the system.`
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Why This Works Section - MOVED BEFORE TESTIMONIALS */}
         <section className={`py-12 md:py-16 ${getSectionPadding()}`}>
@@ -1196,14 +1165,14 @@ If meetings don't happen, we don't hide behind reports — we fix the system.`
                 <div className="text-center mb-8 md:mb-10">
                   <h3 className="text-2xl md:text-3xl font-black text-white mb-4 md:mb-6">
                     <span className="bg-gradient-to-r from-[#c42dd7] to-[#1769dc] bg-clip-text text-transparent">
-                      Why this works even in crowded inboxes
+                     Why timing beats volume
                     </span>
                   </h3>
                   <p className="text-base md:text-lg text-gray-300 mb-4">
-                    Buyers don't hate cold email.
+                    Buyers don't ignore outreach.
                   </p>
                   <p className="text-xl md:text-2xl font-bold text-gray-300 mb-8 md:mb-10">
-                    They hate <span className="text-[#c42dd7]">irrelevant</span> cold email.
+                  They ignore <span className="text-[#c42dd7]">irrelevant</span> outreach.
                   </p>
                 </div>
 
@@ -1407,7 +1376,7 @@ If meetings don't happen, we don't hide behind reports — we fix the system.`
                       />
 
                       <div className="text-gray-300 text-sm md:text-base leading-relaxed whitespace-normal break-words">
-                        "OutreachCrafters truly mastered the balance of volume, personalization, and precision — something most agencies never get right. They've set a new standard for us."
+                        "OutreachCrafters changed how we approach outreach. Instead of chasing volume, they focused on companies already showing need. That timing-first strategy made all the difference"
                       </div>
                     </div>
                   </div>
@@ -1455,7 +1424,7 @@ If meetings don't happen, we don't hide behind reports — we fix the system.`
             </div>
 
             {/* SECTION 4: Comparison Section */}
-            <div className="py-12 md:py-16">
+            <div id="comparison" className="py-12 md:py-16">
               <div className="max-w-[1400px] mx-auto">
                 <div className="text-center mb-8 md:mb-12">
                   <h2 className="text-2xl md:text-3xl font-black text-white mb-3 md:mb-4">
@@ -1603,7 +1572,7 @@ If meetings don't happen, we don't hide behind reports — we fix the system.`
                     Outreach Crafters
                   </span>
                   <p className="text-sm text-gray-400 px-4 md:px-0">
-                    Unlocking 3x revenue through AI powered cold Email outreach.
+                    Unlocking 3x revenue through Hands Off Growth Systems.
                   </p>
                 </div>
               </div>
@@ -1612,7 +1581,7 @@ If meetings don't happen, we don't hide behind reports — we fix the system.`
                 <h3 className="text-base font-semibold text-gray-300 mb-3">Quick Links</h3>
                 <ul className="space-y-2">
                   <li><a href="#section3" className="text-gray-400 hover:text-[#c42dd7] transition-colors text-sm inline-block">Outreach Crafters Way</a></li>
-                  <li><a href="#process" className="text-gray-400 hover:text-[#c42dd7] transition-colors text-sm inline-block">Process</a></li>
+                  { <li><a href="#comparison" className="text-gray-400 hover:text-[#c42dd7] transition-colors text-sm inline-block">Why Us?</a></li> }
                   <li><a href="#testimonials" className="text-gray-400 hover:text-[#1769dc] transition-colors text-sm inline-block">Testimonials</a></li>
                 </ul>
               </div>
