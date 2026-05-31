@@ -598,7 +598,7 @@ If meetings don't happen, we don't hide behind reports — we fix the system.`
                   <img
                     src="/logo.svg"
                     alt="Outreach Crafters"
-                    className="w-full h-full object-cover transform scale-125"
+                    className="w-full h-full transform scale-125"
                     loading="eager"
                     width={56}
                     height={56}
