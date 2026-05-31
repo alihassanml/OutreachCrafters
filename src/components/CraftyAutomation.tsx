@@ -674,14 +674,14 @@ If meetings don't happen, we don't hide behind reports — we fix the system.`
              <div className="text-center max-w-3xl mx-auto">
   <div className="inline-block mb-6 md:mb-8">
     <span className="px-5 py-2 md:px-6 md:py-2.5 bg-gradient-to-r from-[#c42dd7]/20 to-[#1769dc]/20 border border-[#c42dd7]/30 rounded-full text-purple-300 font-semibold text-base md:text-lg backdrop-blur-sm">
-      🚀 Performance-Based Results
+       Performance-Based Results - $0 Upfront
     </span>
   </div>
 
   <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-white mb-6 md:mb-8 leading-tight">
     We help{' '}
     <span className="font-black bg-gradient-to-r from-[#c42dd7] via-purple-400 to-[#1769dc] bg-clip-text text-transparent">
-      B2B SAAS & AI Companies
+      B2B AI Companies
     </span>
     {' '}in unlocking
     <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#1769dc] to-[#c42dd7] font-black mt-3 md:mt-4">
